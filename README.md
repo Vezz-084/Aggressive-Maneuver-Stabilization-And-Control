@@ -1,6 +1,6 @@
 # Aggressive Maneuver Stabilization and Control
 
-**Aggressive Maneuver Stabilization and Control** (AMSC) is a cutting-edge project designed to enhance the stability and control of vehicles (aerial, ground, or marine) during aggressive and high-speed maneuvers. With applications in both autonomous and manually controlled systems, this project leverages advanced algorithms to maintain optimal performance even in challenging conditions.
+**Aggressive Maneuver Stabilization and Control** (AMSC) is a cutting-edge project designed to enhance the stability and control of quadcopters during aggressive and high-speed maneuvers. With applications in both autonomous and manually controlled systems, this project leverages advanced algorithms to maintain optimal performance even in challenging conditions.
 
 This repository includes the core algorithms, simulation tools, and code necessary for stabilizing and controlling vehicles during high-intensity maneuvers.
 
