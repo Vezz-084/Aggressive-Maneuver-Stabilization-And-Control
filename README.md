@@ -1,6 +1,6 @@
 # Aggressive Maneuver Stabilization and Control (AMSC)
 
-This repository is dedicated to the development and implementation of a robust quaternion-based control system for quadrotor UAVs. Specifically designed for aggressive maneuvers, this system ensures global stability and precise attitude tracking in dynamic environments. Leveraging advanced geometric tracking control on \( SE(3) \) and quaternion-based attitude control, the project addresses challenges like gimbal lock, nonlinear dynamics, and high-rotation maneuvers.
+This repository is dedicated to the development and implementation of a robust quaternion-based control system for quadrotor UAVs. Specifically designed for aggressive maneuvers, this system ensures global stability and precise attitude tracking in dynamic environments. Leveraging advanced geometric tracking control on SE(3) and quaternion-based attitude control, the project addresses challenges like gimbal lock, nonlinear dynamics, and high-rotation maneuvers.
 
 ---
 
@@ -17,7 +17,7 @@ This work has applications in aerial robotics for **search and rescue**, **surve
 
 ## Features
 
-- **Hybrid Control Framework**: Combines **Geometric Tracking Control** on \( SE(3) \) for position and altitude tracking and **Quaternion-Based Attitude Control** for orientation stabilization.
+- **Hybrid Control Framework**: Combines **Geometric Tracking Control** on SE(3) for position and altitude tracking and **Quaternion-Based Attitude Control** for orientation stabilization.
 - **Simulation of Aggressive Maneuvers**: Includes scenarios such as 360-degree flips and helical trajectories.
 - **High Precision Tracking**: Achieves minimal position and velocity errors even during aggressive maneuvers.
 
@@ -25,7 +25,7 @@ This work has applications in aerial robotics for **search and rescue**, **surve
 
 ## Key Algorithms
 
-1. **Geometric Tracking Control on \( SE(3) \)**:
+1. **Geometric Tracking Control on SE(3)**:
    - Operates directly on nonlinear manifolds.
    - Ensures global stability and avoids singularities.
 
