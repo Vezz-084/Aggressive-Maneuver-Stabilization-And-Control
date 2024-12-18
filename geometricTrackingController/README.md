@@ -10,9 +10,9 @@ The **Geometric Tracking Controller** operates on the \( SE(3) \) manifold, comb
 
 #### Key Algorithms
 - Position and velocity error dynamics:
-  - \( e_x = x - x_d \), \( e_v = \dot{x} - \dot{x}_d \)
+  - ![equation](https://latex.codecogs.com/svg.image?e_x=x-x_d,%5Cquad%20e_v=%5Cdot%7Bx%7D-%5Cdot%7Bx%7D_d)
 - Control law for thrust:
-  - \( F = -k_x \cdot e_x - k_v \cdot e_v + m \cdot \ddot{x}_d + m \cdot g \cdot e_3 \)
+  - ![equation](https://latex.codecogs.com/svg.image?F=-k_x%5Ccdot%20e_x-k_v%5Ccdot%20e_v&plus;m%5Ccdot%5Cddot%7Bx%7D_d&plus;m%5Ccdot%20g%5Ccdot%20e_3)
 - Rotational dynamics using the desired rotation matrix.
 
 #### Applications
