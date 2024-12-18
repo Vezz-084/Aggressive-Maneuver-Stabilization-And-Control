@@ -46,7 +46,7 @@ This work has applications in aerial robotics for **search and rescue**, **surve
   - **Helical Trajectory**: Smooth circular motion with progressive ascent.
 - **Control Inputs**:
   - Altitude Controller: Generates thrust \( F \).
-  - Attitude Controller: Computes torque \( \tau \) using quaternion-based feedback.
+  - Attitude Controller: Computes torque using quaternion-based feedback.
 
 ---
 
