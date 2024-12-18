@@ -14,8 +14,3 @@ The **Geometric Tracking Controller** operates on the \( SE(3) \) manifold, comb
 - Control law for thrust:
   - ![equation](https://latex.codecogs.com/svg.image?F=-k_x%5Ccdot%20e_x-k_v%5Ccdot%20e_v&plus;m%5Ccdot%5Cddot%7Bx%7D_d&plus;m%5Ccdot%20g%5Ccdot%20e_3)
 - Rotational dynamics using the desired rotation matrix.
-
-#### Applications
-- UAVs requiring precise trajectory tracking in dynamic environments.
-- High-performance tasks like inspection and delivery.
-
