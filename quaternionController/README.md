@@ -11,10 +11,6 @@ The **Quaternion-Based Controller** ensures precise and robust attitude control 
 #### Key Algorithms
 - Quaternion error calculation.
 - Feedback control law:
-  - \( \tau = -K_q \cdot q_{\text{err}} - K_\omega \cdot \omega \)
+  - ![equation](https://latex.codecogs.com/svg.image?%5Ctau=-K_q%5Ccdot%20q_%7B%5Ctext%7Berr%7D%7D-K_%5Comega%5Ccdot%5Comega%20)
 - Angular velocity dynamics:
-  - \( \dot{\omega} = J^{-1} \left( \tau - \omega \times (J \cdot \omega) \right) \)
-
-#### Applications
-- Dynamic maneuvers requiring smooth orientation transitions.
-- UAV operations in environments with significant disturbances.
+  - ![equation](https://latex.codecogs.com/svg.image?%5Cdot%7B%5Comega%7D=J%5E%7B-1%7D(%5Ctau-%5Comega%5Ctimes(J%5Ccdot%5Comega)))
