@@ -50,6 +50,79 @@ This work has applications in aerial robotics for **search and rescue**, **surve
 
 ---
 
+## Project Structure
+
+### Main Directories and Files:
+- **`PIDController`**
+  - Contains the implementation of the PID controller.
+  - File: `pid_euler_control.mlx` - MATLAB Live Script for the Euler-based PID control implementation.
+
+- **`geometricTrackingController`**
+  - Implements the geometric tracking controller with supporting functions.
+  - Files:
+    - `geometricTrackingControl.mlx`: Main MATLAB Live Script for the geometric tracking controller.
+
+      **Helper Functions**
+       - `RPYToRot_ZXY.m`: Converts roll, pitch, and yaw to a rotation matrix.
+       - `flippp.mlx`: Helper script for flipping transformations.
+       - `hat_map.m`, `vec_cross.m`, `vec_dot.m`, `vee_map.m`: Supporting MATLAB scripts for vector and matrix operations.
+       - `helical.mlx`: Script for helical motion dynamics.
+
+- **`proposedController`**
+  - Implements a proposed controller.
+  - Files:
+    - `Proposed_Controller.mlx`: MATLAB Live Script for the proposed controller.
+
+- **`quaternionController`**
+  - Implements a quaternion-based controller.
+  - Files:
+    - `Drone_quaternion.mlx`: MATLAB Live Script for the quaternion-based control.
+
+- **Other Files**
+  - `Final Report.pdf`: Detailed project report.
+  - `LICENSE`: Licensing information for this repository.
+  - `README.md`: The current documentation file.
+
+---
+
+## Navigating the Files
+
+1. **Start with the `Final Report.pdf`**  
+   Review this file for a comprehensive understanding of the project objectives, methodologies, and results.
+
+2. **Explore Controller Implementations**  
+   Navigate to the respective controller directories (`PIDController`, `geometricTrackingController`, `proposedController`, `quaternionController`) based on your interest:
+   - Open the `.mlx` files in MATLAB for interactive scripts and step-by-step analysis.
+   - Use supporting `.m` files as needed to understand or modify the computations.
+
+3. **Understanding the Supporting Files**  
+   Supporting scripts in `geometricTrackingController` (e.g., `hat_map.m`, `vec_cross.m`) provide auxiliary functionalities for vector and matrix operations, which are crucial for geometric tracking.
+
+4. **Experimenting and Testing**  
+   Open the MATLAB Live Scripts (`.mlx`) in MATLAB:
+   - Run the scripts interactively to observe the controller performance.
+   - Modify the parameters or functions to customize the controllers as needed.
+
+---
+
+## Usage Instructions
+
+
+### Steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shahjahan07/PID-Controller-Implementation.git
+   ```
+2. Open MATLAB and navigate to the cloned repository directory.
+3. Access the desired script or function:
+   - Open `.mlx` files in MATLAB for interactive execution.
+   - Edit `.m` files for customizations.
+
+4. Run the scripts to test the controllers and analyze the results.
+
+---
+
+
 ## Acknowledgments
 
 This project builds upon foundational works such as:
